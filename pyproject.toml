@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "qrcode-writer"
+version = "0.1.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.8"
+wifi_qrcode = "^2.1.0"
+qrcode = "^6.1"
+pillow = "^8.1.0"
+simple-term-menu = "^0.10.4"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.4"
+pylint = "^2.6.0"
+yapf = "^0.30.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
